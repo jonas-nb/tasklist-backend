@@ -4,7 +4,8 @@
   "description": "app para treinar api",
   "main": "app.ts",
   "scripts": {
-    "start": "node /app.ts",
+    "start": "node dist/app.js",
+    "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
