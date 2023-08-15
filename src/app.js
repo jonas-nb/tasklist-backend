@@ -29,7 +29,7 @@ app.use((0, cors_1.default)(corsOptions));
 //connect database
 const connectDB = () => __awaiter(void 0, void 0, void 0, function* () {
     try {
-        yield mongoose_1.default.connect("mongodb://localhost:27017/todo", {
+        yield mongoose_1.default.connect("mongodb+srv://jonasnb4:jonaslll@cluster0.afrbkuj.mongodb.net/", {
             useNewUrlParser: true,
             useUnifiedTopology: true,
         });

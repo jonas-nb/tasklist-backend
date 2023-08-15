@@ -19,7 +19,7 @@ app.use(cors(corsOptions));
 
 const connectDB = async () => {
   try {
-    await mongoose.connect("mongodb://localhost:27017/todo", {
+    await mongoose.connect("mongodb+srv://jonasnb4:jonaslll@cluster0.afrbkuj.mongodb.net/", {
       useNewUrlParser: true,
       useUnifiedTopology: true,
     } as ConnectOptions);
