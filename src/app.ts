@@ -11,7 +11,7 @@ const app = express();
 const PORT = 4000;
 app.use(express.json());
 const corsOptions = {
-  origin: ["https://tasklist-app-wkma.onrender.com"] 
+  origin: ["https://tasklist-frontend-nine.vercel.app"] 
 };
 
 app.use(cors(corsOptions));
